@@ -1,0 +1,180 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ /**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ /**
+* All of the CSS for your admin-specific functionality should be
+* included in this file.
+*/
+i {font-weight: 400;}
+.ace-tools {padding-top: 20px;padding-right: 20px;}
+#left-menu {width: 280px;background-color: #313644;border-right: 1px solid #e6ecf5;overflow-x: hidden;}
+#left-menu.small-left-menu,
+#logo.small-left-menu {width: 60px;}
+#left-menu ul {padding: 0;margin: 0;}
+#left-menu ul li {padding: 0 10px;display: block;position: relative;}
+#left-menu > ul > li {margin: 15px 0;}
+#left-menu ul li a {color: #fff;width: 100%;display: inline-block;text-decoration: none;padding: 10px;box-sizing: border-box;display: flex;gap: 5px;}
+#left-menu ul li.active a {background: #0e9aee;}
+#left-menu li.has-sub ul {background-color: #454e62;margin: 0 -10px;padding-left: 45px;height: 0;overflow: hidden;}
+#logo {background-color: #464e62;font-size: 30px;line-height: 2em;color: #fff;padding-left: 15px;}
+.outer-box .card {border: 1px solid #e6ecf5;font-weight: 300;max-width: 100%;margin-top: 0px;}
+div#main-content {width: calc(100% - 280px);}
+.outer-box {display: flex;}
+.card .title {padding: 15px 20px;border-bottom: 1px solid #e6ecf5;margin-bottom: 10px;color: #000;font-size: 18px;padding-left: 0;}
+#left-menu > ul > li:not(.active) > a:hover {color: #0e9aee;}
+.content-ace ul li label {padding: 15px 20px;padding-left: 0;color: #1d2327;font-size: 1.3em;font-weight: 600;}
+.content-ace ul li {padding: 10px;display: flex;}
+.label-heading {width: 30%;}
+.content-box {width: 70%;margin-top: 20px;}
+.content-box code {font-size: 17px;}
+img.tool-icon {width: 20px;cursor: pointer;}
+.content-box img.tool-icon {width: 25px;cursor: pointer;margin: 0px 0px -5px 5px;}
+
+.content-ace .content-box img {    max-width: 100%;}
+.prview-image {
+    position: relative;
+    padding: 10px;
+}
+.prview-image:before {
+    content: "Preview";
+    height: 100%;
+    width: 100%;
+    background: rgba(33, 33, 33, 0.1);
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    color: #ffffffc7;
+    font-weight: 600;
+    transition: 0.3s;
+    text-shadow: 1px 1px 4px #0000002b;
+}
+
+input.energy-converters {
+    background: #325ce8;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+input.energy-converters:hover {
+    background: black;
+}
+
+
+
+input.ace-calculator {
+    background: #325ce8;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+input.ace-calculator:hover {
+    background: black;
+}
+
+input.speed-converters {
+    background: #325ce8;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+input.speed-converters:hover {
+    background: black;
+}
+
+input.input-submit {
+    background: #325ce8;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+input.input-submit:hover {
+    background: black;
+}
+
+input.charge-converters {
+    background: #325ce8;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+input.charge-converters:hover {
+    background: black;
+}
+
+input.energy-converters {
+    background: #325ce8;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+input.energy-converters:hover {
+    background: black;
+}
+
+input.pressure-converters {
+    background: #325ce8;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+input.pressure-converters:hover {
+    background: black;
+}
+
+.ace-tools .card {
+    max-width: 100%;
+}
+.content-ace form input.qr-code {
+    background: #325ce8;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.content-ace form input.qr-code:hover{
+    background: #000;
+}
+.content-ace form .content-box input {
+    max-width: 400px;
+   
+}
